@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/eventstyles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="main-nav">
+        <div class="head">
+          <a href="home.html"
+            ><img src="images/logo.png" alt="Open University logo"
+          /></a>
+          <div class="heading">
+            <h1>OU Walking Club Admin</h1>
+            <p>Subtitle, description or slogan</p>
+          </div>
+        </div>
+        <ul class="nav-links">
+          <li><a href="/rss.html">RSS</a></li>
+          <li>|</li>
+          <li><a href="/home.html">Home</a></li>
+          <li>|</li>
+          <li><a href="/login.html">Sign in</a></li>
+        </ul>
+      </nav>
+      <div class="section-image">
+        <h3>Section title</h3>
+      </div>
+      <section class="main-section">
+        <form
+          action="https://students.open.ac.uk/mct/tt284/reflect/reflect.php"
+          method="post"
+        >
+          <fieldset>
+            <legend>Add new social event</legend>
+            <div class="form-group">
+              <label for="event_name">Event Name:</label>
+              <input value="" id="event_name" name="event_name" type="text" />
+            </div>
+            <div class="form-group">
+              <label for="event_date">Date: </label>
+              <input value="" id="event_date" name="event_date" type="date" />
+            </div>
+            <div class="form-group">
+              <label for="start_time">Start Time: </label>
+              <input value="" id="start_time" name="start_time" type="time" />
+            </div>
+            <div class="form-group">
+              <label for="meeting_point">Meeting Point: </label>
+              <input
+                value=""
+                id="meeting_point"
+                name="meeting_point"
+                type="text"
+              />
+            </div>
+          </fieldset>
+          <div class="submit-buttons">
+            <div class="submit-clear">
+              <button type="reset">Clear</button>
+            </div>
+            <div class="back">
+              <button type="submit">Submit</button>
+            </div>
+          </div>
+        </form>
+      </section>
+      <footer>
+        <div class="footer">
+          <div class="footer-bar"></div>
+          <p class="footer-title">
+            The Open University
+          </p>
+          <p class="footer-subtitle">
+            Copyright 2011. All Rights Reserved
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

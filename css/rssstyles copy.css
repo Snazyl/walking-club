@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-section {
+  height: auto;
+}
+
+.secondary-container {
+  margin: 10px;
+}
+
+.secondary-container h2 {
+  margin-bottom: 10px;
+}

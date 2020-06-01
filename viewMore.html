@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/eventstyles.css" />
+    <link rel="stylesheet" href="css/viewmorestyles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="main-nav">
+        <div class="head">
+          <a href="home.html"
+            ><img src="images/logo.png" alt="Open University logo"
+          /></a>
+          <div class="heading">
+            <h1>OU Walking Club Admin</h1>
+            <p>Subtitle, description or slogan</p>
+          </div>
+        </div>
+        <ul class="nav-links">
+          <li><a href="/rss.html">RSS</a></li>
+          <li>|</li>
+          <li><a href="/home.html">Home</a></li>
+          <li>|</li>
+          <li><a href="/login.html">Sign in</a></li>
+        </ul>
+      </nav>
+      <div class="section-image">
+        <h3>Section title</h3>
+      </div>
+      <section class="main-section">
+        <form
+          action="https://students.open.ac.uk/mct/tt284/reflect/reflect.php"
+          method="post"
+        >
+          <fieldset>
+            <legend>Add new walk event</legend>
+            <div class="form-group">
+              <label for="walk_name">Walk Name:</label>
+              <input
+                value="Watcombe to Sheldon"
+                id="walk_name"
+                name="walk_name"
+                type="text"
+              />
+            </div>
+            <div class="form-group">
+              <label for="walk_date">Date: </label>
+              <input
+                value="2019-01-03"
+                id="walk_date"
+                name="walk_date"
+                type="date"
+              />
+            </div>
+            <div class="form-group">
+              <label for="start_time">Start Time: </label>
+              <input
+                value="10:30"
+                id="start_time"
+                name="start_time"
+                type="time"
+              />
+            </div>
+            <div class="form-group">
+              <label for="meeting_point">Meeting Point: </label>
+              <input
+                value="Somewhere"
+                id="meeting_point"
+                name="meeting_point"
+                type="text"
+              />
+            </div>
+            <div class="form-group">
+              <label for="distance">Distance: </label>
+              <input value="9" id="distance" name="distance" type="number" />
+            </div>
+            <div class="form-group">
+              <input
+                id="sessionID"
+                name="sessionID"
+                type="hidden"
+                value="12345678-09ab-1111-cdef"
+              />
+            </div>
+            <div class="form-group form-inline">
+              <span class="prompt">Status</span>
+              <br />
+              <input
+                id="status_proposed"
+                name="status"
+                type="radio"
+                value="Proposed"
+              />
+              <label for="status_proposed">Proposed</label>
+              <input
+                id="status_approved"
+                name="status"
+                type="radio"
+                value="Approved"
+              />
+              <label for="status_approved">Approved</label>
+              <input
+                id="status_rejected"
+                name="status"
+                type="radio"
+                value="Rejected"
+              />
+              <label for="status_rejected">Rejected</label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Notes</legend>
+            <div class="form-group form-wrap">
+              <textarea name="walk_notes" rows="12" cols="50">
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit repellendus quam corrupti nulla est ipsum quo error laudantium sit, voluptate exercitationem pariatur quaerat reiciendis nostrum. Ducimus dolorem impedit laudantium vitae!</textarea
+              >
+            </div>
+          </fieldset>
+          <div class="submit-buttons">
+            <div class="submit-clear">
+              <button type="reset">Clear</button>
+            </div>
+            <div class="back">
+              <button type="submit">Submit</button>
+            </div>
+          </div>
+        </form>
+      </section>
+      <footer>
+        <div class="footer">
+          <div class="footer-bar"></div>
+          <p class="footer-title">
+            The Open University
+          </p>
+          <p class="footer-subtitle">
+            Copyright 2011. All Rights Reserved
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

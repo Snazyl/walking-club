@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-section {
+  height: auto;
+  flex-direction: column;
+  width: auto;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+}
+
+.dates {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-name {
+  font-style: italic;
+}
+
+.news-item {
+  margin: 10px;
+  border-bottom: 2px solid lightgray;
+}
+
+.dates p {
+  font-size: 0.8rem;
+}
+
+.edit-btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.add-new {
+  display: flex;
+  justify-content: center;
+}
